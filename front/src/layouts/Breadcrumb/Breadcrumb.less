@@ -1,0 +1,16 @@
+.root {
+  padding: 16px 0;
+  font-size: 12px;
+  :global {
+    .ant-breadcrumb {
+      font-size: 12px;
+    }
+    .ant-breadcrumb a {
+      color: rgba(0, 0, 0, 0.65);
+    }
+    .ant-breadcrumb > span:last-child a {
+      color: rgba(0, 0, 0, 0.45);
+      pointer-events: none;
+    }
+  }
+}

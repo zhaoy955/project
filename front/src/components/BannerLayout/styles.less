@@ -1,0 +1,22 @@
+.root {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:after {
+    background-image: url(assets/background.svg);
+    background-repeat: repeat;
+    opacity: 0.1;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+}

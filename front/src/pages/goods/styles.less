@@ -1,0 +1,30 @@
+.root {
+  .frontTitle {
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .form {
+    background-color: transparent;
+    margin-left: 128px;
+    > div {
+      margin-bottom: 24px;
+    }
+    .img {
+      display: inline-block;
+      width: 185px;
+      height: 185px;
+    }
+
+    .btns {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 24px 0;
+      :global {
+        .ant-btn {
+          margin: 0 12px;
+        }
+      }
+    }
+  }
+}
